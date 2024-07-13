@@ -1,4 +1,3 @@
-from aiogram.exceptions import TelegramBadRequest
 from aiogram.types import LabeledPrice, Message, PreCheckoutQuery
 
 from vbivbot.keyboards.payment_keyboard import payment_keyboard

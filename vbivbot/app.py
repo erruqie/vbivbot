@@ -1,9 +1,7 @@
 import logging
 import asyncio
 from aiogram import Bot, Dispatcher, F
-from aiogram.filters.command import Command, CommandObject
-from aiogram.utils.keyboard import InlineKeyboardBuilder
-from aiogram.types import LabeledPrice, Message, PreCheckoutQuery
+from aiogram.filters.command import Command
 from vbivbot.handlers import payment
 
 
