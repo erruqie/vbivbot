@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "vbivbot"
+version = "0.1.0"
+description = ""
+authors = ["Maxim <erruqie@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.7.0"
+
+[tool.poetry.scripts]
+poetry = 'poetry.console:run'
+app = 'vbivbot.app:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
